@@ -14,7 +14,7 @@ fluidPage(
       )
     ),
     mainPanel(
-      tableOutput("courbe")
+      plotOutput("courbe")
     )
   )
 )
