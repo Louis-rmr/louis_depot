@@ -1,5 +1,9 @@
 library(shiny)
-library(ggplot2)
+library(tidyverse)
+
 got <- read.table("data/got.csv", header=TRUE, sep=";", dec=",")
 
-renderPrint(got)
+function(output, input){
+  
+  output$courbe <- renderTable(got)}
+    
