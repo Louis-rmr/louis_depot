@@ -1,7 +1,7 @@
 library(tidyverse)
 library(ggplot2)
 #Import des données
-got <- read.table("got.csv", header=TRUE, sep=";", dec=",")
+got <- read.table("datascience/got.csv", header=TRUE, sep=";", dec=",")
 #view(got)
 
 got %>%
