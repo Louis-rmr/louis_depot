@@ -27,6 +27,11 @@ avec les données necessaires :
   + un dossier avec les images present dans le rapport 
   + un dossier avec la bibliographie au format .bib et le style en .csl
 
+* app_test_louis est un dossier regroupant :
+  + Les deux script (ui.R et server.R)
+  + Un dossier data avec les données necessaire au lancemet de l'application
+cette application est un test pour prendre en main shiny web app
+
 ## Version
 
 * Version de R 4.5.2
